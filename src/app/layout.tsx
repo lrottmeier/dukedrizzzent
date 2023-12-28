@@ -33,24 +33,26 @@ export default function RootLayout({
     <html lang="en" className={pp.className}>
       {/* overflow-x-hidden */}
       <body className="w-full ">
-        <div className="flex justify-start w-screen ml-11 xl:ml-0 lg:justify-center xl:mt-2">
-          <Link className="absolute my-11 w-14" href="../">
-            <Image className="w-full" src={DD} alt="DD logo" />
-          </Link>
-        </div>
-        <div className="">
-          <div className="fixed left-10 top-[50%] -translate-y-[50%] z-50">
-            <Navigation />
+        <div className="flex flex-col overflow-x-hidden max-w-screen">
+          <div className="flex justify-start w-screen ml-11 xl:ml-0 lg:justify-center xl:mt-2">
+            <Link className="absolute my-11 w-14" href="../">
+              <Image className="w-full" src={DD} alt="DD logo" />
+            </Link>
           </div>
-          <div className="absolute right-[10%] mt-20">
-            <BurgerNavigation />
+          <div className="">
+            <div className="fixed left-10 top-[50%] -translate-y-[50%] z-50">
+              <Navigation />
+            </div>
+            <div className="absolute right-[10%] mt-20">
+              <BurgerNavigation />
+            </div>
+            <main className="">{children}</main>
+            <aside className="fixed right-10 top-[50%] -translate-y-[50%] z-50">
+              <Subnavigation />
+            </aside>
           </div>
-          <main className="">{children}</main>
-          <aside className="fixed right-10 top-[50%] -translate-y-[50%] z-50">
-            <Subnavigation />
-          </aside>
+          <Footer />
         </div>
-        <Footer />
       </body>
     </html>
   );

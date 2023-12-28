@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Image from "next/image";
-import DD from "../assets/svg/dd_logo_website.svg";
-import { Kanit } from "next/font/google";
+import DD from "public/assets/images/dd_logo_website.webp";
 import Link from "next/link";
 import localFont from "next/font/local";
 import Subnavigation from "@/components/navigation/subnavigation";
@@ -32,10 +31,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={pp.className}>
-      <body className="overflow-x-hidden w-full ">
+      {/* overflow-x-hidden */}
+      <body className="w-full ">
         <div className="flex justify-start w-screen ml-11 xl:ml-0 lg:justify-center xl:mt-2">
-          <Link className="absolute my-11" href="../">
-            <Image src={DD} alt="DD logo" />
+          <Link className="absolute my-11 w-14" href="../">
+            <Image className="w-full" src={DD} alt="DD logo" />
           </Link>
         </div>
         <div className="">

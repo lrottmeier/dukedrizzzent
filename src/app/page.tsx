@@ -3,8 +3,7 @@ import Perfect from "../assets/images/perfect.png";
 import Whatif from "../assets/images/whatif.png";
 import Party from "../assets/images/partyweekend.png";
 import Money from "../assets/images/countingmoney.png";
-import Main from "public/assets/images/dukedrizzz.webp";
-import Group from "../assets/images/ddgroup.png";
+import Main from "../assets/images/dukedrizzz.webp";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,11 +13,11 @@ export default function Home() {
       {/* <div className="relative bg-[url('/assets/images/dukedrizzz.JPG')] -translate-x-72 w-screen bg-no-repeat bg-cover bg-center"> */}
       <div className="h-screen w-screen">
         {/* left-0 right-0 -z-50 */}
-        {/* <Image
+        <Image
           className="absolute object-cover h-screen w-screen -z-50 -rotate-90 md:rotate-0 overflow-x-visible"
           src={Main}
           alt="DukeDrizzz Group Picture"
-        /> */}
+        />
         <h3
           className=" absolute top-[50%] left-[50%] -translate-x-1/2 -translate-y-1/2 text-4xl  md:text-6xl  lg:text-7xl text-center w-screen"
           style={{ color: "#DD9046" }}>

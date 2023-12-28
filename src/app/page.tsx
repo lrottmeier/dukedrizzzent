@@ -51,47 +51,37 @@ export default function Home() {
         <div className="flex">
           <ul className="flex flex-col text-5xl text-center  gap-3 cursor-auto ">
             <li>
-              <Link
-                className="hover:text-[#DD9046] "
-                href="artists/artist/duke">
+              <Link className="hover:text-[#DD9046] " href="producers">
                 Duke
               </Link>
             </li>
             <li>
-              <Link
-                className="hover:text-[#DD9046]"
-                href="artists/artist/drizz">
+              <Link className="hover:text-[#DD9046]" href="artists">
                 Drizzz
               </Link>
             </li>
             <li>
-              <Link
-                className="hover:text-[#DD9046]"
-                href="artists/artist/gbunny">
+              <Link className="hover:text-[#DD9046]" href="producers">
                 G-bunny
               </Link>
             </li>
             <li>
-              <Link
-                className="hover:text-[#DD9046]"
-                href="artists/artist/jesse">
+              <Link className="hover:text-[#DD9046]" href="producers">
                 Jesse
               </Link>
             </li>
             <li>
-              <Link className="hover:text-[#DD9046]" href="artists/artist/mj">
+              <Link className="hover:text-[#DD9046]" href="partners">
                 MJ
               </Link>
             </li>
             <li>
-              <Link className="hover:text-[#DD9046]" href="artists/artist/yero">
+              <Link className="hover:text-[#DD9046]" href="partners">
                 Yero
               </Link>
             </li>
             <li>
-              <Link
-                className="hover:text-[#DD9046]"
-                href="artists/artist/pavel">
+              <Link className="hover:text-[#DD9046]" href="partners">
                 Pavel
               </Link>
             </li>

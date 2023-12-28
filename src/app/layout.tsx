@@ -35,7 +35,7 @@ export default function RootLayout({
       <body className="w-full ">
         <div className="flex flex-col overflow-x-hidden max-w-screen">
           <div className="flex justify-start w-screen ml-11 xl:ml-0 lg:justify-center xl:mt-2">
-            <Link className="absolute my-11 w-14" href="../">
+            <Link className="absolute my-14 w-14" href="../">
               <Image className="w-full" src={DD} alt="DD logo" />
             </Link>
           </div>
